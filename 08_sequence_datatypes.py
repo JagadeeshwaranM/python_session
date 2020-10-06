@@ -1,3 +1,4 @@
+#sequence datatypes
 #mutable - List, Set, Dictionary
 #Immutable - String, Tuple
 import pdb

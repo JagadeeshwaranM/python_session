@@ -1,3 +1,4 @@
+#exception
 def divide(a,b):
         try:
             result = a / b

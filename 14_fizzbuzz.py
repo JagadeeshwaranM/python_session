@@ -1,3 +1,4 @@
+#fizzbuzz module
 def fizzBuzz(n):
     # Write your code here
     for fizzBuzz in range(1,n+1):

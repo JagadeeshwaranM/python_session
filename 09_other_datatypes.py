@@ -1,3 +1,4 @@
+#other datatypes
 #--------------------------------Collection and Mappings types in Python
 #Range Type and function, set type and dictionary
 import pdb
