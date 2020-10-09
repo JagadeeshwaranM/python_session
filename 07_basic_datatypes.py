@@ -26,7 +26,7 @@ print(c/d)
 print(c**2)
 #reminder
 print(d%c)
-#-------------------------------------Basic Conditional Operators
+#-------------------------------------Basic Conditional Operators(Relational and Equality Operators)
 a=3
 b=5
 print(a==b)
@@ -46,3 +46,6 @@ print(int(True))
 print(5 + True)
 print(5 * True)
 print(5 * False)
+
+
+
