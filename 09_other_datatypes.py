@@ -2,7 +2,6 @@
 #--------------------------------Collection and Mappings types in Python
 #Range Type and function, set type and dictionary
 import pdb
-pdb.set_trace()
 a=list(range(6))
 print(a)
 b=list(range(2,6))
@@ -25,6 +24,7 @@ e=list(range(-2,-11,-2))
 print(e)
 
 ##################set elements  Order does not matter and data needs to be unique
+
 a={1,'s',7.8}
 print(a)
 b=set([1,'B',6.9,1])

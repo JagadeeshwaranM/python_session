@@ -2,7 +2,7 @@
 #mutable - List, Set, Dictionary
 #Immutable - String, Tuple
 import pdb
-pdb.set_trace()
+
 #-------------------------------------------- String
 welcome = "Hello World"
 print(welcome)
@@ -54,12 +54,13 @@ print(a)
 b=(12,23,'Jaga')
 print(b)
 print(b[0])
-#b[0]=11  -----------------------------gives error
+#b[0]=11
 print(b)
 len(b)
 print(b[0:2])
 
 #---------------------------- Slicing in List and String
+
 my_list = [0,1,2,3,4,5,6,7,8,9]
 print(my_list[0])
 print(my_list[5])
@@ -73,9 +74,11 @@ print(my_list[1:])
 print(my_list[:-1])
 print(my_list[:])
 #-------------------- using step func
+
 print((my_list[2:-1:2]))
 print(my_list[-1:2:-1])
 print(my_list[-2:1:-2])
 print(my_list[::-2])
+pdb.set_trace()
 print(my_list[::-1])
 print(my_list[::1])

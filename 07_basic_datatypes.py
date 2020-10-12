@@ -1,6 +1,6 @@
 #basic datatypes
 import pdb
-pdb.set_trace()
+
 print('Type of 4 is                         :',type(4))
 print('Type of 4.0 is                       :',type(4.0))
 print('Type of -4 is                        :',type(-4))
@@ -29,6 +29,7 @@ print(d%c)
 #-------------------------------------Basic Conditional Operators(Relational and Equality Operators)
 a=3
 b=5
+pdb.set_trace()
 print(a==b)
 print(a!=b)
 print(a>b)
