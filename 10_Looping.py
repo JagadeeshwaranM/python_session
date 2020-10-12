@@ -101,7 +101,7 @@ print(i)
 cart=[10,20,600,60,70]
 for item in cart:
     if item>500:
-        print("To place this order insurence must be required")
+        print("To place this order insurance must be required")
         break
     print(item)
 
