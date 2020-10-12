@@ -23,7 +23,7 @@ class ContractEmployee(Employee):
         return 'You are not eligible for Bonus.'
 
 if __name__ == '__main__':
-    pdb.set_trace()
+    #pdb.set_trace()
     e1 = Employee('Jack', 'simmons', 456342)
     e2 = ContractEmployee('John', 'williams', 123656)
     print(e1.getBonus())
