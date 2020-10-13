@@ -23,22 +23,24 @@ else :
     print("not sure")
 
 #looping
-import pdb
-pdb.set_trace()
+# import pdb
+# pdb.set_trace()
 sum=0
-for i in range(10):
+for i in range(4):
+    print('i:',i)
+    print('sum:',sum)
     sum = sum +i
     print(sum)
 print(sum)
 
-
 sum = 0
 i=0
-while i < 10:
+while i < 4:
     sum = sum+i
-    print(sum)
+    print('i:',i)
+    print('sum:',sum)
     i = i + 1
-print(sum)
+print('final sum:',sum)
 
 a=['banana','apple', 'microsoft']
 for element in a:
