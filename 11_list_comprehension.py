@@ -8,6 +8,7 @@ for x in range(10):
     my_list.append(x * 2)
 print(my_list)
 
+
 #same using list comprehension
 comp_list = [x * 2 for x in range(10)]
 print(comp_list)

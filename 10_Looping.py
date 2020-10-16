@@ -45,7 +45,8 @@ print('final sum:',sum)
 a=['banana','apple', 'microsoft']
 for element in a:
     print(element)
-
+import pdb
+pdb.set_trace()
 b=[1,2,3]
 for element in b:
     print(element)

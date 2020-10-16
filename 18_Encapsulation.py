@@ -19,5 +19,5 @@ if __name__ == '__main__':
     e1 = Employee('Jack', 'simmons', 456342)
     print(e1.fname, e1.lname)
     print(e1.getEmpid())
-    #print(e1.__empid)
+    print(e1.__empid)
 

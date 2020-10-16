@@ -5,7 +5,7 @@ class Person:
         self.lname = lname
         print(fname,lname)
 
-if __name__ == '__main__':
-    p1 = Person('George', 'Smith')
+#if __name__ == '__main__':
+p1 = Person('George', 'Smith')
 
 
